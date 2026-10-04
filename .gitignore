@@ -1,0 +1,55 @@
+# OS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.hmap
+*.ipa
+*.moved-aside
+*.xccheckout
+**/.xcode.env.local
+
+# CocoaPods
+ios/Pods/
+
+# Android / Gradle
+.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+local.properties
+*.iml
+.idea/
+*.hprof
+
+# Signing keys and secrets
+*.keystore
+*.jks
+*.p12
+*.pem
+*.mobileprovision
+.env
+.env.*
+GoogleService-Info.plist
+google-services.json
+
+# Ruby
+vendor/
+.bundle/
+
+# Metro
+.metro-health-check*
+
+# Test and debug output
+coverage/
+*.log
+*.stackdump
